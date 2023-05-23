@@ -12,6 +12,7 @@ function Header() {
         </div>
         <Navigation/>
       </header>
+      
     </div>
   )
 }

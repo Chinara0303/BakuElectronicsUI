@@ -1,16 +1,18 @@
 import React from 'react'
 import image from '../../assets/img/28may-news.jpg'
+import Footer from '../Layout/Footer/Footer'
 import Products from './Products'
 
 function Main() {
   return (
-    <main>
+    <>
+     <main>
         <section id='intro'>
         <div className="container">
         <div className="row">
             <div className="col-lg-6">
                 <div className="image-area">
-                    <img src={image} alt="" />
+                    <img className='img-fluid' src={image} alt="" />
                 </div>
             </div>
             <div className="col-lg-6">
@@ -21,11 +23,7 @@ function Main() {
                         <p>15-31 may tarixləri arasında alış-verişlərdə müstəqilsən!&nbsp;</p>
                         <p>Nağd alışda 50 %-dək endirim!
                             <br/>Məişət texnikası, TV və kondisioner 0 0 0 18 AY<br/>Smart-saat və aksesuarlar 0 0 18 AY</p>
-                            {/* <br/>Minik vasitələri və İT məhsulları 0 0 15 AY
-                            <br/>Smartfon və planşetlər 0 0 12 AY<br/>Bütün Apple məhsulları 0 0 12 AY<br/>Ev əşyaları 0 0 0 24 AY<br/>Mebel 0 0 36 AY<br/>
-                            Müştəri kart sahiblərinə hər alışdan 1% keşbek!<br/><br/> */}
-                        <a href="">Ətraflı</a>
-                        <a href="">Bağla</a>
+                           
                     </div>
                     <div className="text-area-bottom">
                         <div className="period">
@@ -176,11 +174,19 @@ function Main() {
                     <div className="col-lg-8">
                     <Products/>
                     </div>
+                    
                 </div>
+             
             </div>
         </section>
-        
     </main>
+    <footer>
+        <Footer/>
+    </footer>
+    </>
+   
+    
+
   )
 }
 
