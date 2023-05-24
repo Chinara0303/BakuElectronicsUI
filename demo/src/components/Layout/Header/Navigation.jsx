@@ -9,12 +9,12 @@ function Navigation() {
             <div className="bottom-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 col-md-6">
                             <div className="logo-area">
                                 <img src={logo} alt="logo" />
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 d-lg-block d-none">
                             <div className="header-center">
                                 <form action="">
                                     <div className="input-area">
@@ -32,7 +32,7 @@ function Navigation() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 col-md-6">
                             <div className="header-right">
                                 <ul>
                                     <li><a href=""><FontAwesomeIcon icon={faUser} size="xl" style={{ color: "#202122", }} /></a> </li>

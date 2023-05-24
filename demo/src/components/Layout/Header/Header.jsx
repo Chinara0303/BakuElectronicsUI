@@ -1,6 +1,4 @@
 import React from 'react'
-// import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import '../../../assets/home/Home.scss'
 import Navigation from './Navigation';
 
 function Header() {
